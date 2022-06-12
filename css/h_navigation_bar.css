@@ -1,0 +1,111 @@
+/*navigation bar css*/
+.topMargin{
+	text-align: center;
+	font-size:40px;
+	color:#2F4F4F;
+	font-weight: bold;	
+}
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.horizontal {
+    float: left;
+}
+li.login{
+	float: right;
+}
+li.horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 35px;
+    text-decoration: none;
+}
+
+li.horizontal a:hover:not(.active) {
+    background-color: #111;
+}
+
+li.horizontal a.active {
+    background-color: #38d6af;
+    color: #111;
+}
+
+li.horizontal a.login{
+	float: right;
+}
+
+.dashboard{
+	width: 18%;
+	float: right;
+	background-color: #38d6af;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 15px 15px;
+	color: #111;
+	height: 250px;
+}
+.instruction{
+	width: 70%;
+	float: left;
+	background-color: #6be1c3;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 15px 10px;
+	color: #111;
+	height: 300px;
+}
+
+div.addItemForm{
+	margin-left: 30%;
+	padding: 1px 16px;
+	height: 100px;
+	width: 45%;
+}
+
+div.addUserForm{
+	margin-left: 30%;
+	padding: 1px 16px;
+	height: 1000px;
+	width: 45%;
+}
+
+
+.Mandatory{
+    color: red;
+ }
+ .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+
+}

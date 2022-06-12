@@ -1,0 +1,28 @@
+/*vertical navigation bar css*/
+ul.vertical {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #333;
+    /*height: 100%;*/
+    overflow: auto;
+    float: left;
+}
+
+li.vertical a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li.vertical a.active {
+    background-color: #38d6af;
+    color: #333;
+}
+
+li.vertical a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
